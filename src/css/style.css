@@ -1,5 +1,5 @@
 :root {
-  --primary:#68e1fd;
+  --primary:#4a5e90;
   --gray:#f9f9f9;
 }
 
@@ -1166,6 +1166,14 @@ video {
 
 .ease-in-out {
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-bg-color {
+  background-color: var(--primary);
+}
+
+.logo-color {
+  color: var(--primary);
 }
 
 /*! purgecss start ignore */

@@ -1,5 +1,5 @@
 :root {
-    --primary:#68e1fd;
+    --primary:#4a5e90;
     --gray:#f9f9f9;
 }
 
@@ -7,6 +7,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo-bg-color {
+    background-color: var(--primary);
+}
+.logo-color {
+    color: var(--primary);
+}
 /*! purgecss start ignore */
 .navbar > li:hover > a:before {
 	background-color: var(--primary);
