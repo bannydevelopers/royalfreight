@@ -1,4 +1,4 @@
-"# royalfreight" 
+# royalfreight
 
 
 ## how to use
@@ -6,7 +6,7 @@ open index.html file on browser
 
 ### start editinging
 npm install
-npm run tailwind
+npm run compile
 
 ### format code
-npm prettier
+npm format
